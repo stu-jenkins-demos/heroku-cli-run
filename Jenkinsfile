@@ -37,7 +37,7 @@ spec:
                     
                     //sh 'docker version'
                     dockerLogin()
-                    sh 'docker run stuartcbrown/heroku-cli:latest -- client'
+                    sh 'docker run stuartcbrown/heroku-cli:latest -- plugins'
                    
                 }
             }
